@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import Button from "./Button";
 
 export default function Menu({ onSelectLab, selectedLab }) {
-  const labs = [1, 2, 3, 4];
+  const labs = [1, 2, 3, 4, 5];
   const location = useLocation();
   const isLab4 = selectedLab === 4;
 
