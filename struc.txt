@@ -1,0 +1,44 @@
+Структура папок
+Серийный номер тома: 0E55-83FA
+C:.
+|   eslint.config.js
+|   index.html
+|   package-lock.json
+|   package.json
+|   README.md
+|   struc.txt
+|   vite.config.js
+|   
++---public
+|       vite.svg
+|       
+\---src
+    |   App.css
+    |   App.jsx
+    |   index.css
+    |   main.jsx
+    |   
+    +---assets
+    |       react.svg
+    |       
+    +---components
+    |       Button.jsx
+    |       Container.jsx
+    |       Content.jsx
+    |       Footer.jsx
+    |       Header.jsx
+    |       Lab4Demo.jsx
+    |       Menu.jsx
+    |       Nav.jsx
+    |       
+    +---contexts
+    |       ThemeContext.jsx
+    |       
+    +---pages
+    |       CounterPage.jsx
+    |       ThemePage.jsx
+    |       
+    \---store
+            counterSlice.js
+            store.js
+            
