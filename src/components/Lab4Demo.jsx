@@ -5,7 +5,6 @@ import { increment, decrement, reset } from "../store/counterSlice";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import Container from "./Container";
-import FeedbackSection from "./FeedbackSection";
 
 export default function Lab4Demo() {
   const { theme, toggleTheme } = useTheme();
@@ -94,8 +93,6 @@ export default function Lab4Demo() {
             <Button onClick={() => navigate("/lab4")}>Главная Lab4</Button>
           </div>
         </div>
-
-        <FeedbackSection />
       </div>
     </Container>
   );
